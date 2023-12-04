@@ -15,15 +15,15 @@ Xpeer needs a backoffice solution to allow different functionalities of courses 
 A course can contain several modules.
 
 The course have the following properties:
-	course id (key)
-    course name (mandatory)
-	description
-	publish status (DRAFT, PUBLISHED, ARCHIVED) (mandatory)
-	publication date  (mandatory)
+ * course id (key)
+ * course name (mandatory)
+ * description
+ * publish status (DRAFT, PUBLISHED, ARCHIVED) (mandatory)
+ * publication date  (mandatory)
 
 Every course is composed of a list of modules, with the following properties:
-	module id (key)
-	module name (mandatory)
+* module id (key)
+* module name (mandatory)
 	
 Your tasks are implement the following functionalities:
 	- The endpoints to provide a CRUD of courses (create, read, update and delete)
@@ -33,4 +33,4 @@ Your tasks are implement the following functionalities:
 ### Code
 
 * Database is automatically created based in the entities
-* Database is initially populated in class CoursesLoadDatabase
+* Database is initially populated in class CoursesLoadDatabase (you should add here the data you want for the entities you create)
